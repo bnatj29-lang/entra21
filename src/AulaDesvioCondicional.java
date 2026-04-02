@@ -10,7 +10,8 @@ public class AulaDesvioCondicional {
 		// exercicio3();
 		// exercicio4();
 		// exercicio5();
-		exercicio6();
+		// exercicio6();
+		exercicio7();
 	}
 
 	static void exercicio1() {
@@ -79,8 +80,6 @@ public class AulaDesvioCondicional {
 
 	static void exercicio6() {
 
-	static void exercicio6() {
-
 		System.out.print("Digite um numero: ");
 		double a = sc.nextDouble();
 
@@ -97,5 +96,21 @@ public class AulaDesvioCondicional {
 		} else {
 			System.out.print("O maior numero é: " + c);
 		}
+	}
+
+	static void exercicio7() {
+		System.out.print("Digite um número de 0 a 10: ");
+		int numero = sc.nextInt();
+
+		if (numero <= 4) {
+			System.out.print("Insuficiente");
+		} else if (numero <= 6) {
+			System.out.print("Regular");
+		} else if (numero <= 8) {
+			System.out.print("Bom");
+		} else {
+			System.out.print("Excelente");
+		}
+
 	}
 }
