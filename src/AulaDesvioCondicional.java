@@ -11,7 +11,8 @@ public class AulaDesvioCondicional {
 		// exercicio4();
 		// exercicio5();
 		// exercicio6();
-		exercicio7();
+		// exercicio7();
+		// exercicio8();
 	}
 
 	static void exercicio1() {
@@ -111,6 +112,27 @@ public class AulaDesvioCondicional {
 		} else {
 			System.out.print("Excelente");
 		}
+	}
+
+	static void exercicio8() {
+
+		System.out.print("Digite um numero: ");
+		double a = sc.nextDouble();
+
+		System.out.print("Digite um numero: ");
+		double b = sc.nextDouble();
+
+		System.out.print("Digite um numero: ");
+		double c = sc.nextDouble();
+
+		if (a + b > c && a + c > b && b + c > a) {
+			System.out.println("Forma um triângulo");
+		} else {
+			System.out.println("Não forma um triângulo");
+		}
 
 	}
+	
+
+
 }
