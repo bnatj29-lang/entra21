@@ -9,7 +9,8 @@ public class AulaDesvioCondicional {
 		// exercicio2();
 		// exercicio3();
 		// exercicio4();
-		exercicio5();
+		// exercicio5();
+		exercicio6();
 	}
 
 	static void exercicio1() {
@@ -74,7 +75,27 @@ public class AulaDesvioCondicional {
 		} else {
 			System.out.println("Não pode votar!");
 		}
+	}
 
-	}vamos 
+	static void exercicio6() {
 
+	static void exercicio6() {
+
+		System.out.print("Digite um numero: ");
+		double a = sc.nextDouble();
+
+		System.out.print("Digite um numero: ");
+		double b = sc.nextDouble();
+
+		System.out.print("Digite um numero: ");
+		double c = sc.nextDouble();
+
+		if (a > b && a > c) {
+			System.out.print("O maior número é: " + a);
+		} else if (b > a && b > c) {
+			System.out.print("O maior numero é: " + b);
+		} else {
+			System.out.print("O maior numero é: " + c);
+		}
+	}
 }
